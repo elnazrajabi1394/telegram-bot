@@ -864,6 +864,6 @@ if __name__ == '__main__':
     print("Bot is running and listening for messages...")
     while True:
         try:
-            bot.infinity_polling(interval=2, timeout=20)
+            bot.infinity_polling(interval=2, timeout=20, remove_webhook=True)
         except Exception as e:
             print(f"Error: {e}")
