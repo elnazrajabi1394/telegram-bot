@@ -7,7 +7,7 @@ from flask import Flask
 import threading
 
 # ----------------- تنظیمات توکن‌ها -----------------
-TOKEN = "8781363842:NSbc1qlr2e5xvzc4kq3qmzmlhmjlclz66ctu3wgg2y6wU"
+TOKEN = "8781363842:AAGAxN2lAZIRoCrEJPTq2icnN4t-E-iOsSI"
 AVALAI_API_KEY = "aa-33cxfxRPMfG4ItwwUSThsqF4lAGuqZbrtpzykfWobEl1uPKK"
 requests.get(f"https://api.telegram.org/bot{TOKEN}/deleteWebhook?drop_pending_updates=true")
 bot = telebot.TeleBot(TOKEN)
