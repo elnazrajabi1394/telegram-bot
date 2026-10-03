@@ -8,7 +8,7 @@ import threading
 
 # ----------------- تنظیمات توکن‌ها -----------------
 TOKEN = "8781363842:AAGAxN2lAZIRoCrEJPTq2icnN4t-E-iOsSI"
-AVALAI_API_KEY = "8781363842:AAHxc2ikKgLHaLVT97Iv_TYFFhWZGz4Db6U"
+AVALAI_API_KEY = "8781363842:NSbc1qlr2e5xvzc4kq3qmzmlhmjlclz66ctu3wgg2y6wM"
 requests.get(f"https://api.telegram.org/bot{TOKEN}/deleteWebhook?drop_pending_updates=true")
 bot = telebot.TeleBot(TOKEN)
 user_states = {}
